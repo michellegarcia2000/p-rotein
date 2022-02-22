@@ -2,10 +2,10 @@
 Building a random forest classifier model for identifying IDPs from its amino acid sequence
 
 Here's some notes on cloning this directory: 
-mkdir -p ~/git
-cd ~/git
-git clone [copied url to clone]
-git remote add upstream [url]
++ mkdir -p ~/git
++ cd ~/git
++ git clone [copied url to clone]
++ git remote add upstream [url]
 
 
 Here's some notes on general git use (by Kevin Ayala - p-ai PM): 
@@ -21,9 +21,7 @@ git checkout branch_name
 + to "stamp" the envelope, use 
 git commit -m "message"
  where "message" is a message describing the changes you've made
-+ 
-git push
- to send it up
++ git push to send it up
 
 I recommend doing a push every time you've finished a work session. Once you've finished the whole issue, push it one last time and head to the github page to start a new pull request.
 
